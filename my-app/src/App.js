@@ -14,7 +14,7 @@ class App extends React.Component {
   }
 
   componentDidMount() {
-    const publicServerUrl = 'ec2-18-222-100-185.us-east-2.compute.amazonaws.com';
+    const publicServerUrl = 'http://ec2-18-222-100-185.us-east-2.compute.amazonaws.com';
     const localServerUrl = 'http://localhost';
     // fetch(localServerUrl + ":3000/api/instagram/edsheerantopfivephotourls")
     fetch(publicServerUrl + ":3000/api/instagram/edsheerantopfivephotourls")
